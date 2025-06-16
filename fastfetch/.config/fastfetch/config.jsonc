@@ -72,7 +72,7 @@
         {
             "type": "terminal",
             "key": "└ └",
-            "keyColor": "blueyellow
+            "keyColor": "yellow"
         },
         {
             "type": "shell",
