@@ -71,17 +71,17 @@
         },
         {
             "type": "terminal",
-            "key": "└ └",
+            "key": "│ ├",
             "keyColor": "yellow"
         },
         {
             "type": "shell",
-            "key": "└ └",
+            "key": "│ ├",
             "keyColor": "yellow"
         },
         {
             "type": "packages",
-            "key": "│ ├󰏖",
+            "key": "└ └󰏖",
             "keyColor": "yellow"
         },
         {
