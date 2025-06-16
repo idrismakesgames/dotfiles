@@ -17,7 +17,7 @@
         },
         {
             "type": "host",
-            "key": " ",
+            "key": " PC",
             "keyColor": "blue"
         },
         {
@@ -51,37 +51,37 @@
         },
         {
             "type": "os",
-            "key": " ",
+            "key": " OS",
             "keyColor": "yellow"
         },
         {
             "type": "kernel",
-            "key": "│ ├",
+            "key": "│ ",
             "keyColor": "yellow"
         },
         {
             "type": "wm",
-            "key": "│ ├",
+            "key": "│ ",
             "keyColor": "yellow"
         },
         {
             "type": "wmtheme",
-            "key": "│ ├󰉼",
+            "key": "│ 󰉼",
             "keyColor": "yellow"
         },
         {
             "type": "terminal",
-            "key": "│ ├",
+            "key": "│ ",
             "keyColor": "yellow"
         },
         {
             "type": "shell",
-            "key": "│ ├",
+            "key": "│ ",
             "keyColor": "yellow"
         },
         {
             "type": "packages",
-            "key": "└ └󰏖",
+            "key": "└ 󰏖",
             "keyColor": "yellow"
         },
         {
