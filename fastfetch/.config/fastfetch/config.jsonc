@@ -22,22 +22,22 @@
         },
         {
             "type": "cpu",
-            "key": "│ ├",
+            "key": "│ ",
             "keyColor": "blue"
         },
         {
             "type": "gpu",
-            "key": "│ ├󰍛",
+            "key": "│ 󰍛",
             "keyColor": "blue"
         },
         {
             "type": "memory",
-            "key": "│ ├󰍛",
+            "key": "│ 󰍛",
             "keyColor": "blue"
         },
         {
             "type": "disk",
-            "key": "└ └",
+            "key": "│ 󰍛",
             "keyColor": "blue"
         },
         {
@@ -81,7 +81,7 @@
         },
         {
             "type": "packages",
-            "key": "└ 󰏖",
+            "key": "│ 󰏖",
             "keyColor": "yellow"
         },
         {
