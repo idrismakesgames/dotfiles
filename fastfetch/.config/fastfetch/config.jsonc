@@ -9,6 +9,19 @@
             "right": 5
         }
   },
+    "display": {
+        "separator": "->   ",
+        "color": {
+            "separator": "1" // Bold
+        },
+        "constants": [
+            "───────────────────────────"
+        ],
+        "key": {
+            "type": "both",
+            "paddingLeft": 4
+        }
+    },
   "modules": [
         "break",
         {
