@@ -30,27 +30,27 @@
         },
         {
             "type": "host",
-            "key": " PC",
+            "key": " ",
             "keyColor": "blue"
         },
         {
             "type": "cpu",
-            "key": "",
+            "key": " ",
             "keyColor": "blue"
         },
         {
             "type": "gpu",
-            "key": "",
+            "key": " ",
             "keyColor": "blue"
         },
         {
             "type": "memory",
-            "key": "",
+            "key": " ",
             "keyColor": "blue"
         },
         {
             "type": "disk",
-            "key": "",
+            "key": " ",
             "keyColor": "blue"
         },
         {
