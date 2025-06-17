@@ -81,12 +81,12 @@
             "keyColor": "yellow"
         },
         {
-            "type": "terminalfont",
+            "type": "shell",
             "key": " │ ",
             "keyColor": "yellow"
         },
         {
-            "type": "shell",
+            "type": "terminalfont",
             "key": " │ ",
             "keyColor": "yellow"
         },
