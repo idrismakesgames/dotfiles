@@ -6,3 +6,4 @@ fish_config theme choose "Rosé Pine"
 #function fish_greeting
 #    # smth smth
 #end
+starship init fish | source
