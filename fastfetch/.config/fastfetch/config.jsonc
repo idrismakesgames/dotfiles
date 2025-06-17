@@ -81,6 +81,11 @@
             "keyColor": "yellow"
         },
         {
+            "type": "terminalfont",
+            "key": " │ ",
+            "keyColor": "yellow"
+        },
+        {
             "type": "shell",
             "key": " │ ",
             "keyColor": "yellow"
