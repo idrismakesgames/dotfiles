@@ -3,9 +3,6 @@
   "logo": {
 	"source": "~/.config/fastfetch/images/hyprland.png",
       	"height": 10,
-      	"padding": {
-    		"top": 1
-      	}
   },
     "display": {
         "separator": "  ",
