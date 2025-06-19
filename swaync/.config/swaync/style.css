@@ -10,9 +10,8 @@
 }
 
 .floating-notifications.background .notification-row .notification-background {
-  border-radius: 0.5rem;
-  background-color: #191724;
-  color: #e0def4;
+  background-color: #26233A;
+  color: #CDD6F4;
   border: 1px solid #6e6a86;
 }
 
@@ -21,8 +20,7 @@
   .notification-background
   .notification {
   padding: 0.5rem;
-  border-radius: 8px;
-    background: #26233A
+  border-radius: 8px;    
 }
 
 .floating-notifications.background
