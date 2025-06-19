@@ -5,7 +5,8 @@
       	"width": 8,
 	"padding": {
 		"top": 2,
-		"left": 2
+		"left": 4,
+		"right": 6
 
 	}
   },
@@ -114,11 +115,6 @@
         },
         {
             "type": "uptime",  
-            "key": " │ ",
-            "keyColor": "magenta"
-        },
-        {
-            "type": "datetime",
             "key": " │ ",
             "keyColor": "magenta"
         },
