@@ -21,7 +21,7 @@
   .notification-background
   .notification {
   padding: 0.5rem;
-  border-radius: 0.5rem;
+  border-radius: 8px;
 }
 
 .floating-notifications.background
