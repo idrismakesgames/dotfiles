@@ -7,6 +7,7 @@
 
 .floating-notifications.background .notification-row {
   padding: 1rem;
+  color: red;
 }
 
 .floating-notifications.background .notification-row .notification-background {
