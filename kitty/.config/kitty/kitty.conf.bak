@@ -1,7 +1,7 @@
 # vim:fileencoding=utf-8:foldmethod=marker
 
 # BEGIN_KITTY_FONTS
-font_family      family="Berkeley Mono"
+font_family      family='JetBrainsMonoNL Nerd Font Mono' postscript_name=JetBrainsMonoNLNFM-Medium
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
@@ -231,7 +231,7 @@ font_size 12.0
 
 #: If you wish to achieve similar looking thickness in light and dark
 #: themes, a good way to experiment is start by setting the value to
-#: 1.0 0 and use a dark theme. Then adjust the second parameter until
+editor nvim#: 1.0 0 and use a dark theme. Then adjust the second parameter until
 #: it looks good. Then switch to a light theme and adjust the first
 #: parameter until the perceived thickness matches the dark theme.
 
@@ -274,7 +274,8 @@ font_size 12.0
 
 # Nerd Fonts v2.3.3
 
-symbol_map U+23FB-U+23FE,U+2665,U+26A1,U+2B58,U+E000-U+E00A,U+E0A0-U+E0A3,U+E0B0-U+E0D4,U+E200-U+E2A9,U+E300-U+E3E3,U+E5FA-U+E6AA,U+E700-U+E7C5,U+EA60-U+EBEB,U+F000-U+F2E0,U+F300-U+F32F,U+F400-U+F4A9,U+F500-U+F8FF,U+F0001-U+F1AF0 Symbols Nerd Font Mono
+symbol_map U+E000-U+EFFF JetBrainsMonoNL Nerd Font Mono
+
 
 #: Text cursor customization {{{
 
@@ -2800,6 +2801,10 @@ include rose-pine.conf
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Mocha
+# Rosé Pine
 include current-theme.conf
 # END_KITTY_THEME
+
+editor nvim
+
+cursor_trail 3
