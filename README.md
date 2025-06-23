@@ -2,19 +2,13 @@
 - Using  GNU Stow to store config dotfiles
 - Rose Pine Theme for less eye strain
 - Berkeley Mono for easier readability when doing large code reviews.
-- Hyprland for tiling window management.
+- Perfect Dev Setup for home and worek
 
 ### Configuration files stored
-- hyprland + hyprpaper
+- nvim
 - kitty
 - fish
-- btop
+- starship
 
 #### Configurations to be added
-- Waybar
-- Rofi
-- Fastfetch
-- Dunst
-- Starship
-- Tmux
 - Neovim
