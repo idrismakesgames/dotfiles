@@ -11,6 +11,7 @@ set -g fish_greeting
 abbr --add gco git checkout   
 abbr --add gac 'git add -A && git commit -m "ME-'  
 abbr --add fic nvim ~/.config/fish/config.fish 
+abbr --add tmc nvim ~/.config/.tmux.conf 
 abbr --add kic nvim ~/.config/kitty/kitty.conf
 abbr --add nvc nvim ~/.config/nvim/init.lua
 abbr --add stc nvim ~/.config/starship.toml
