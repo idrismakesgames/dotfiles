@@ -221,14 +221,14 @@ layout {
         // If you enable the border, you probably want to disable the focus ring.
         // off
 
-        width 4
+        width 2
         active-color "#ffc87f"
         inactive-color "#505050"
 
         // Color of the border around windows that request your attention.
         urgent-color "#9b0000"
 
-        active-gradient from="#DFC5A4" to="#627d9a" angle=45 relative-to="workspace-view"
+        active-gradient from="#627d9a" to="#DFC5A4" angle=45 relative-to="workspace-view"
         // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
     }
 
