@@ -228,7 +228,7 @@ layout {
         // Color of the border around windows that request your attention.
         urgent-color "#9b0000"
 
-        active-gradient from="#627d9a" to="#DFC5A4" angle=45 relative-to="workspace-view"
+        active-gradient from="#957FB8" to="#7AA89F" angle=45 relative-to="workspace-view"
         // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
     }
 
