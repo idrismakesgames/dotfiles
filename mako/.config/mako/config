@@ -3,7 +3,8 @@
 background-color=#1F1F28
 text-color=#DCD7BA
 border-color=#D27E99
-progress-color=over #C0A36E
+progress-color=#C0A36E
+font=Berkeley Mono 10
 
 [urgency=high]
 border-color=#c34043
