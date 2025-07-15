@@ -387,7 +387,7 @@ binds {
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+Space hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
-    Mod+V hotkey-overlay-title="Clipboard History { spawn "cliphist" "list" "|" "fuzzel" "--dmenu" "|" "cliphist" "decode" "|" "wl-copy"; }
+    Mod+V hotkey-overlay-title="Clipboard History" { spawn "cliphist" "list" "|" "fuzzel" "--dmenu" "|" "cliphist" "decode" "|" "wl-copy"; }
 
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
