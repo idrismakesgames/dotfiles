@@ -1,0 +1,6 @@
+[mgr]
+# Remap movement keys
+left  = ["n"]
+down  = ["e"]
+up    = ["i"]
+right = ["o"]
