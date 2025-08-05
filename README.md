@@ -11,7 +11,6 @@ Configuration files stored
 - mako
 - fuzzel
 - niri
-- yazi
 - hyprland
 - code
 - fastfetch
@@ -19,7 +18,6 @@ Configuration files stored
 
 Configurations to be added
 - Neovim
-- Waybar
 - Z Oxide & fzf
 - RMPC media player
 - Jellyfin
