@@ -47,3 +47,9 @@ set -g fish_pager_color_completion $foreground
 set -g fish_pager_color_description $comment
 
 abbr --add grb "os-prober && sudo grub-mkconfig -o /boot/grub/grub.cfg"
+abbr --add t tree
+abbr --add c clear
+abbr --add cd z
+abbr --add vi nvim
+
+zoxide init fish | source
