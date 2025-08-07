@@ -54,11 +54,12 @@ abbr --add gp 'git push'
 abbr --add gco 'git checkout'
 abbr --add gcb 'git checkout -b'
 abbr --add gb 'git branch'
+abbr --add gf 'git fetch'
 abbr --add t tree
 abbr --add c clear
 abbr --add cd z
 abbr --add ci zi
-abbr --add nv "nvim ."
+abbr --add nv "nvim"
 
 alias vi='nvim'
 alias vim='nvim'
