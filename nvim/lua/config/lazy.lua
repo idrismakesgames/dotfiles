@@ -33,3 +33,6 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
+
+-- Load all custom hotkeys or remaps for nvim
+require("config.keymap")

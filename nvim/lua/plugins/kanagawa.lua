@@ -1,8 +1,8 @@
 return {
 	"rebelot/kanagawa.nvim", 
-	config=function() 
+	config = function() 
 		require('kanagawa').setup({
-			compile=true
+			compile = true
 		});
 		vim.cmd("colorscheme kanagawa");
 	end,
