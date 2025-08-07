@@ -51,6 +51,9 @@ abbr --add gac 'git add -A && git commit -m "'
 abbr --add gs 'git status'
 abbr --add gm 'git merge origin/'
 abbr --add gp 'git push'
+abbr --add gco 'git checkout'
+abbr --add gcb 'git checkout -b'
+abbr --add gb 'git branch'
 abbr --add t tree
 abbr --add c clear
 abbr --add cd z
