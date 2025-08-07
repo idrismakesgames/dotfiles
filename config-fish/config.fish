@@ -47,9 +47,14 @@ set -g fish_pager_color_completion $foreground
 set -g fish_pager_color_description $comment
 
 abbr --add grb "os-prober && sudo grub-mkconfig -o /boot/grub/grub.cfg"
+abbr --add gac 'git add -A && git commit -m "' 
+abbr --add gs 'git status'
+abbr --add gs 'git merge origin/'
 abbr --add t tree
 abbr --add c clear
 abbr --add cd z
+abbr --add ci zi
+abbr --add nv "nvim ."
 
 alias vi='nvim'
 alias vim='nvim'
