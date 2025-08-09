@@ -7,9 +7,6 @@ function fish_greeting
 	fastfetch --logo vanilla2
 end
 
-set -x nvmrc_announce no
-set -gx EDITOR nvim 
-
 # Kanagawa Fish shell theme
 # A template was taken and modified from Tokyonight:
 # https://github.com/folke/tokyonight.nvim/blob/main/extras/fish_tokyonight_night.fish
@@ -46,7 +43,13 @@ set -g fish_pager_color_prefix $cyan
 set -g fish_pager_color_completion $foreground
 set -g fish_pager_color_description $comment
 
-abbr --add grb "os-prober && sudo grub-mkconfig -o /boot/grub/grub.cfg"
+# NVM Setup with Fish
+set -x nvmrc_announce no
+
+# Set Global Editor to NVIM
+set -gx EDITOR nvim 
+
+# Set Up Git Abbreviations
 abbr --add gac 'git add -A && git commit -m "' 
 abbr --add gs 'git status'
 abbr --add gm 'git merge origin/'
@@ -55,12 +58,22 @@ abbr --add gco 'git checkout'
 abbr --add gcb 'git checkout -b'
 abbr --add gb 'git branch'
 abbr --add gf 'git fetch'
-abbr --add t tree
-abbr --add c clear
-abbr --add cd z
-abbr --add ci zi
-abbr --add nv "nvim"
 
+# Common CLI Commands
+abbr --add c clear
+abbr --add t lt
+abbr --add l ls
+
+# Set Up Grub Config Shortcut
+abbr --add grb "os-prober && sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+# Set Up Changing and Searching Directories with Z Oxide and FZF
+abbr --add cd z
+abbr --add cf zi
+
+# Set Up Opening Files And Folders with Neovim
+abbr --add vd "nvim ."
+abbr --add vf 'nvim (fzf --preview="bat {}")'
 alias vi='nvim'
 alias vim='nvim'
 
