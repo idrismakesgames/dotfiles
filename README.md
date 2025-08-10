@@ -6,6 +6,7 @@ My Personal Arch Linux Setup got Coding
 - Scripts for power menu and clipboard history
 
 Configuration files stored
+### testing edit mode
 - kitty
 - fish
 - mako
