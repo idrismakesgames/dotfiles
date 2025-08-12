@@ -4,7 +4,6 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 # potentially disabling fastfetch
 function fish_greeting
 	clear
-	fastfetch --logo vanilla2
 end
 
 # Kanagawa Fish shell theme
@@ -63,6 +62,7 @@ abbr --add gf 'git fetch'
 abbr --add c clear
 abbr --add t lt
 abbr --add l ls
+abbr --add f 'fastfetch --logo vanilla2'
 
 # Set Up Grub Config Shortcut
 abbr --add grb "os-prober && sudo grub-mkconfig -o /boot/grub/grub.cfg"
@@ -72,6 +72,7 @@ abbr --add cd z
 abbr --add cf zi
 
 # Set Up Opening Files And Folders with Neovim
+abbr --add co "code ."
 abbr --add vd "nvim ."
 abbr --add vf 'nvim (fzf --preview="bat {}")'
 alias vi='nvim'
