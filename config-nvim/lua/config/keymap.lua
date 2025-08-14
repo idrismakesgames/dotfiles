@@ -5,3 +5,5 @@ local opts = { noremap = true, silent = true }
 -- map('n', 'e', 'j', opts) -- move down
 
 map("n", "-", "<cmd>Oil --float<CR>", {desc="Open Parent Directory in Oil"})
+map("n", "<C-d>", "<C-d>zz")
+map("n", "<C-u>", "<C-u>zz")
