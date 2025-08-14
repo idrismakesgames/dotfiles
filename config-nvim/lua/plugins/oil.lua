@@ -5,8 +5,8 @@ return {
   opts = {
     float = {
        padding = 2,
-       max_width = 100,
-       max_height = 40,
+       max_width = 70,
+       max_height = 30,
        border = "rounded",  -- others: "single", "double", "none", etc.
     },
     keymaps = {

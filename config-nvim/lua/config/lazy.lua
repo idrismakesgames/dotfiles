@@ -19,7 +19,26 @@ vim.opt.rtp:prepend(lazypath)
 -- loading lazy.nvim so that mappings are correct.
 -- This is also a good place to setup other settings (vim.opt)
 vim.g.mapleader = " "
-vim.g.maplocalleader = "\\"
+vim.g.maplocalleader = ","
+
+-- IDRIS Allow Nvim clipboard to mix with my OS
+vim.schedule(function()
+  vim.o.clipboard = 'unnamedplus'
+end)
+
+-- Highlight when yanking (copying) text
+--  Try it with `yap` in normal mode
+--  See `:help vim.hl.on_yank()`
+vim.api.nvim_create_autocmd('TextYankPost', {
+  desc = 'Highlight when yanking (copying) text',
+  group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
+  callback = function()
+    vim.hl.on_yank()
+  end,
+})
+
+-- IDRIS: Add in my Custom options for Neovim
+require("config.options")
 
 -- Setup lazy.nvim
 require("lazy").setup({
@@ -34,5 +53,12 @@ require("lazy").setup({
   checker = { enabled = true },
 })
 
--- Load all custom hotkeys or remaps for nvim
+-- IDRIS: Auto command to start no neck pain when starting Neovim
+vim.api.nvim_create_autocmd("VimEnter", {
+  callback = function()
+    vim.cmd("NoNeckPain")
+  end
+})
+
+-- IDRIS: Load all custom hotkeys or remaps for nvim
 require("config.keymap")
