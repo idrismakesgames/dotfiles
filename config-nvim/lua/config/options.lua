@@ -22,7 +22,6 @@ vim.opt.breakindent = true -- Indent if wrapping on new line
 -- Line number settings
 vim.opt.number = true -- Show the line numbers
 vim.opt.relativenumber = true -- Show relative line numbers
-vim.opt.cursorline = true -- Show line under cursor
 vim.opt.signcolumn = "yes" -- Show signs by line numbers
 
 -- Splits settings
