@@ -368,7 +368,7 @@ window-rule {
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
 window-rule {
-    geometry-corner-radius 8
+    geometry-corner-radius 5
     clip-to-geometry true
 }
 
@@ -396,6 +396,7 @@ binds {
     Mod+V hotkey-overlay-title="Clipboard History: fuzzel" { spawn "sh" "-c" "cliphist list | fuzzel --dmenu | cliphist decode | wl-copy"; }
     Mod+Escape hotkey-overlay-title="Power Menu: fuzzel" { spawn "~/Dotfiles/niri-powermenu.sh"; }
     Mod+SHIFT+S hotkey-overlay-title="Screenshot: slurp" { spawn "~/Dotfiles/screenshot.sh"; }
+    Mod+P hotkey-overlay-title="Project Menu: fuzzel" { spawn "~/Dotfiles/project-menu.sh"; }
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
     // Mod+T { spawn "bash" "-c" "notify-send hello && exec alacritty"; }
@@ -594,7 +595,7 @@ binds {
     // Toggle tabbed column display mode.
     // Windows in this column will appear as vertical tabs,
     // rather than stacked on top of each other.
-    Mod+W { toggle-column-tabbed-display; }
+    // Mod+W { toggle-column-tabbed-display; }
 
     // Actions to switch layouts.
     // Note: if you uncomment these, make sure you do NOT have
