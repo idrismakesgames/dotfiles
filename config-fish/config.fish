@@ -64,6 +64,7 @@ abbr --add c 'wtype -M ctrl l -m ctrl'
 abbr --add t lt
 abbr --add l ls
 abbr --add f 'fastfetch --logo vanilla2'
+abbr --add s 'sesh connect "$(sesh list | fzf)"'
 
 # Set Up Grub Config Shortcut
 abbr --add grb "os-prober && sudo grub-mkconfig -o /boot/grub/grub.cfg"
