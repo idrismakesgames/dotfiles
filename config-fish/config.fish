@@ -53,6 +53,7 @@ abbr --add gac 'git add -A && git commit -m "'
 abbr --add gs 'git status'
 abbr --add gm 'git merge origin/'
 abbr --add gp 'git push'
+abbr --add gpl 'git pull'
 abbr --add gco 'git checkout'
 abbr --add gcb 'git checkout -b'
 abbr --add gb 'git branch'
@@ -74,6 +75,7 @@ abbr --add cf zi
 # Set Up Opening Files And Folders with Neovim
 abbr --add co "code ."
 abbr --add vd "nvim ."
+abbr --add v "nvim"
 abbr --add vf 'nvim (fzf --preview="bat {}")'
 alias vi='nvim'
 alias vim='nvim'
