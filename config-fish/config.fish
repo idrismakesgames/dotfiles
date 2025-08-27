@@ -60,11 +60,13 @@ abbr --add gb 'git branch'
 abbr --add gf 'git fetch'
 
 # Common CLI Commands
-abbr --add c 'wtype -M ctrl l -m ctrl'
+abbr --add c 'wtype -M ctrl b -m ctrl && wtype -M ctrl l -m ctrl'
 abbr --add t lt
 abbr --add l ls
 abbr --add f 'fastfetch --logo vanilla2'
 abbr --add s 'sesh connect "$(sesh list | fzf)"'
+abbr --add tmd 'tmux detach'
+abbr --add tml 'tmux ls'
 
 # Set Up Grub Config Shortcut
 abbr --add grb "os-prober && sudo grub-mkconfig -o /boot/grub/grub.cfg"
