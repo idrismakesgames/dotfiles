@@ -60,7 +60,7 @@ abbr --add gb 'git branch'
 abbr --add gf 'git fetch'
 
 # Common CLI Commands
-abbr --add c 'wtype -M ctrl b -m ctrl && wtype -M ctrl l -m ctrl'
+abbr --add c 'wtype -M ctrl l -m ctrl'
 abbr --add t lt
 abbr --add l ls
 abbr --add f 'fastfetch --logo vanilla2'
