@@ -1,4 +1,5 @@
 My Personal Arch Linux Setup got Coding
+
 - Using Linux symlinks to keep configs up to date
 - Kanagawa theming for all apps
 - Berkeley Mono for easier readability when doing large code reviews
@@ -6,6 +7,7 @@ My Personal Arch Linux Setup got Coding
 - Scripts for power menu and clipboard history
 
 Configuration files stored
+
 - kitty
 - fish
 - mako
@@ -15,9 +17,10 @@ Configuration files stored
 - code
 - fastfetch
 - grub
+- Z Oxide & fzf
+- Neovim
 
 Configurations to be added
-- Neovim
-- Z Oxide & fzf
+
 - RMPC media player
 - Jellyfin
