@@ -6,7 +6,7 @@ case $SELECTION in
 	*"Skimlinks")
 		~/Dotfiles/work-start.sh;;
 	*"Notes")
-		;;
+		~/Dotfiles/notes-start.sh;;
 	*"Full Stack")
 		;;
 	*"Website")
