@@ -1,0 +1,39 @@
+gui:
+  theme:
+    backgroundColor: ["#1e1e2e"]
+    foregroundColor: ["#cdd6f4"]
+    selectedLineBgColor: ["#3e4451"]
+    selectedLineFgColor: ["#ffffff"]
+    activeBorderColor: ["#7e9cd8"]
+
+    commitShaColor: ["#f38ba8"]
+    commitAuthorColor: ["#89b4fa"]
+    commitMessageColor: ["#cdd6f4"]
+
+    branchColor: ["#f9e2af"]
+    currentBranchColor: ["#fab387"]
+    remoteBranchColor: ["#f38ba8"]
+
+    untrackedFileColor: ["#9ece6a"]
+    modifiedFileColor: ["#f9e2af"]
+    stagedFileColor: ["#fab387"]
+    deletedFileColor: ["#f38ba8"]
+    renamedFileColor: ["#89b4fa"]
+    conflictedFileColor: ["#f38ba8"]
+
+    hintTextColor: ["#94e2d5"]
+    popupFgColor: ["#cdd6f4"]
+    popupBgColor: ["#313244"]
+
+  hideStatus: false
+  hideCommitConfirmation: false
+
+keybinding:
+  universal:
+    quit: "q"
+    confirm: "<Enter>"
+    togglePanel: "<C-p>"
+    discardChanges: "d"
+    commitChanges: "c"
+    push: "P"
+    pull: "F"

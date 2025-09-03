@@ -58,6 +58,7 @@ abbr --add gco 'git checkout'
 abbr --add gcb 'git checkout -b'
 abbr --add gb 'git branch'
 abbr --add gf 'git fetch'
+abbr --add lg 'lazygit'
 
 # Common CLI Commands
 abbr --add c 'wtype -M ctrl l -m ctrl'
