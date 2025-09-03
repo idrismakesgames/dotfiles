@@ -10,7 +10,7 @@ case $SELECTION in
 	*"Neovim Config")
 		~/Dotfiles/nvim-config-start.sh;;
 	*"Full Stack")
-		;;
+		~/Dotfiles/fullstack-start.sh;;
 	*"Website")
 		;;
 esac
