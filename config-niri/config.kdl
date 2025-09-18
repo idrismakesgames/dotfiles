@@ -135,6 +135,10 @@ output "HDMI-A-1" {
     position x=2752 y=0
 }
 
+hotkey-overlay {
+    skip-at-startup
+}
+
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Layout
@@ -293,7 +297,7 @@ layout {
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 spawn-at-startup "mako"
-spawn-at-startup "swaybg" "-o" "DP-3" "-i" "/home/idrish/Pictures/Wallpaper.png" "-m" "fill" "-o" "HDMI-A-1" "-i" "/home/idrish/Pictures/Wallpaper2.png" "-m" "fill" 
+spawn-at-startup "swaybg" "-o" "DP-3" "-c" "#1e1e2e" "-m" "solid_color" "-o" "HDMI-A-1" "-c" "#1e1e2e" "-m" "solid_color" 
 
 spawn-at-startup "xwayland-satellite"
 environment {
@@ -389,7 +393,6 @@ binds {
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
-    Mod+D hotkey-overlay-title="Open a game: crawl" { spawn "kitty" "--override" "font_size=18.0" "/home/idrish/Games/crawl/crawl-ref/source/crawl"; }
     Mod+Space hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Mod+N hotkey-overlay-title="Open notes: obsidian" { spawn "obsidian"; }
     Mod+F hotkey-overlay-title="Open Files: yazi" { spawn "kitty" "yazi"; }
